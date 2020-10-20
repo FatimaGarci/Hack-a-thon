@@ -54,7 +54,6 @@ a {
 }
 
 .main-nav a:hover {
-<<<<<<< HEAD
 	color: #68b0ab;
 }
 
@@ -84,7 +83,6 @@ a {
   }
    .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
     color: #000000;
-=======
 	color: #94b4a4;
 }
 .hero-image {
@@ -137,5 +135,5 @@ a {
     text-align: center;
     font-size: x-large;
     color: #94b4a4;
->>>>>>> commits
+
   }
