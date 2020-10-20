@@ -86,10 +86,37 @@ a {
 	padding-bottom: 4rem;
 }
 
+/* 0UR PARTNERS section */
+.sponsors-img h2{
+	font-size: 4.3rem;
+	font-family: 'Caveat';
+	letter-spacing: .3rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 
 
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+  }
+  
+  .flex-container > div {
+	width: 170px;
+	margin: 20px;
+  }
+  .flex-container img{
+	  width: 120px;
+  }
+/* work team */
+.work-team img{
+	width: 100%;
+}
 
- /* Footer */ 
+
+/* Footer */ 
  #footer{
 	height: 3rem;
 	margin-bottom: 2rem;
