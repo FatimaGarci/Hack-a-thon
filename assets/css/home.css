@@ -22,7 +22,6 @@ a {
     color: #000000;
 	text-decoration: none;
 }
-
 .header, .main-nav {
 	display: flex;
 	
@@ -57,3 +56,31 @@ a {
 .main-nav a:hover {
 	color: #94b4a4;
 }
+
+
+
+ /* Footer */ 
+ #footer{
+	height: 3rem;
+	margin-bottom: 2rem;
+	color: #000000;
+	text-align: center;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+  }
+  .social-media-links{
+	padding-top: 1rem;
+	font-size: 1.3rem;
+  }
+
+  /* Social Media Links */
+  .fa {
+    text-align: center;
+    text-decoration: none;
+  }
+   .fa:hover {
+    opacity: 0.9;
+  }
+   .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
+    color: #000000;
+  }
