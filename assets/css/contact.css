@@ -57,3 +57,102 @@ a {
 .main-nav a:hover {
 	color: #94b4a4;
 }
+
+
+	/* CONTACT FORM */
+
+    .c-heading {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin: 50px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+    #form {
+    position: relative;
+    width: 500px;
+    margin: 60px auto 100px auto;
+    }
+    
+    input, ::placeholder {
+    color: rgb(116, 135, 141);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    
+    }
+    
+    input {
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    color: rgb(116, 135, 141);
+    border: solid 1px #2a2f31;
+    margin-bottom: 15px;
+    }
+    
+    input:hover {
+    background: #68B0AB;
+    color: whitesmoke;
+    }
+    
+    textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    border: solid 1px #2a2f31;
+    font-size: 13px;
+    margin-bottom: 15px;
+    
+    }
+    
+    textarea:hover {
+    background: #68B0AB;;
+    color: white;
+    }
+    
+    
+    #submit {
+    width: 470px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: rgb(116, 135, 141);
+    cursor: pointer;
+    border: solid 1px #2a2f31;
+    font-family: 'Lato', sans-serif;
+    }
+    
+    #submit:hover {
+    background: #68b0ab;
+    color: white;
+    }
+
+    /* Footer */ 
+#footer{
+	height: 3rem;
+	margin-bottom: 2rem;
+	color: #000000;
+	text-align: center;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+  }
+  .social-media-links{
+	padding-top: 1rem;
+	font-size: 1.3rem;
+  }
+
+  /* Social Media Links */
+  .fa {
+    text-align: center;
+    text-decoration: none;
+  }
+   .fa:hover {
+    opacity: 0.9;
+  }
+   .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
+    color: #000000;
+  }

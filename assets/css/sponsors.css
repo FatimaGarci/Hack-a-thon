@@ -54,6 +54,90 @@ a {
 	font-size: 1em;
 }
 
-.main-nav a:hover {
-	color: #94b4a4;
+.main-nav  a:hover {
+	color: #68b0ab;
 }
+
+/* section hero */
+.hero-color{
+	width: 100%;
+	background-color: #8fc0a9;
+}
+
+.content {
+	width: 50%;
+	padding-left: 7em;
+}
+
+.content  #title{
+	padding-top: 2rem;
+	font-size: 4rem;
+	color: white;
+	text-transform: uppercase;
+    font-family: 'Caveat';
+    letter-spacing: .3rem;
+	text-decoration: underline;
+}
+.content p{
+	color: white;
+	font-family: 'Caveat';
+	font-size: 1.5rem;
+	line-height: 1.5;
+	padding-bottom: 4rem;
+}
+
+/* 0UR PARTNERS section */
+.sponsors-img h2{
+	font-size: 4.3rem;
+	font-family: 'Caveat';
+	letter-spacing: .3rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+  }
+  
+  .flex-container > div {
+	width: 170px;
+	margin: 20px;
+  }
+  .flex-container img{
+	  width: 120px;
+  }
+/* work team */
+.work-team img{
+	width: 100%;
+}
+
+
+/* Footer */ 
+ #footer{
+	height: 3rem;
+	margin-bottom: 2rem;
+	color: #000000;
+	text-align: center;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+  }
+  .social-media-links{
+	padding-top: 1rem;
+	font-size: 1.3rem;
+  }
+
+  /* Social Media Links */
+  .fa {
+    text-align: center;
+    text-decoration: none;
+  }
+   .fa:hover {
+    opacity: 0.9;
+  }
+   .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
+    color: #000000;
+  }

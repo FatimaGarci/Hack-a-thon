@@ -55,5 +55,112 @@ a {
 }
 
 .main-nav a:hover {
-	color: #94b4a4;
+	color: #68b0ab;
 }
+/* This begins the CSS for the sections  */
+
+main > h1, p, .browser {
+	margin: 1px;
+	padding: 10px;
+}
+
+h2 {
+	text-align: left;
+	position: relative;left:230px;top:5px;
+}
+
+img {	
+	width:200px;height:200px;
+	position: relative;right:50px;
+	border-style:solid;
+			
+}
+        
+.main-browser {
+	text-align: center;
+	position: relative;
+	background-color:#68b0ab;
+	padding:2px;
+	margin:0;
+         
+	
+}
+
+button {
+	padding: 10px 10px;
+	background-color: white;
+	border-radius: 0px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+}
+        
+button:hover {
+	background-color: #68b0ab;
+
+}
+        
+        
+#browser1 {
+	overflow: auto;
+	margin: 50px;
+	font-size: 90%;
+	position:relative;left:50px;top:5px;
+	background-color:#fdfdfd;
+	border-style:solid;
+	
+}
+
+#browser2 {
+	overflow: auto;
+        margin:50px;
+        position:relative;right:50px;top:5px;
+        border-style:solid;
+         background-color:#fdfdfd;
+
+        
+}
+#browser3 {
+	overflow: auto;
+        margin:50px;
+        position:relative;left:50px;top:5px;
+        border-style:solid;
+        background-color:#fdfdfd;
+}
+
+#browser4 {
+	overflow: auto;
+	margin:50px;
+        position:relative;right:50px;top:5px;
+        border-style:solid;
+        background-color:#fdfdfd;
+
+}
+
+
+
+ /* Footer */ 
+ #footer{
+	height: 3rem;
+	margin-bottom: 2rem;
+	color: #000000;
+	text-align: center;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+  }
+  .social-media-links{
+	padding-top: 1rem;
+	font-size: 1.3rem;
+  }
+
+  /* Social Media Links */
+  .fa {
+    text-align: center;
+    text-decoration: none;
+  }
+   .fa:hover {
+    opacity: 0.9;
+  }
+   .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
+    color: #000000;
+  }
