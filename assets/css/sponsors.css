@@ -6,6 +6,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
+	/* background-color: #c8d5b9c4; */
 }
 body, html {
 	height: 100%;
@@ -57,16 +58,47 @@ a {
 .main-nav  a:hover {
 	color: #68b0ab;
 }
+/* Sponsor Imges */
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 1rem;
+  }
+  
+  .flex-container > div {
+	width: 230px;
+	margin: 20px;
+  }
+  .flex-container img{
+	  width: 220px;
+	  padding-right: 30px;
+  }
+.sponsors-img{
+	margin-bottom: 7rem;
+}
 
-/* section hero */
-.hero-color{
+/* work team */
+.work-team-Img img{
 	width: 100%;
-	background-color: #8fc0a9;
+	margin-top: 9rem;
+}
+/* section hero */
+.sponsor-color{
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: 70px;
 }
 
 .content {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
 	width: 50%;
-	padding-left: 7em;
+	background-color: #8fc0a9e8;
+	padding-right: 4em;
+	padding-left: 5em;
+	border-radius: 0 60px 0;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.178);
 }
 
 .content  #title{
@@ -83,38 +115,42 @@ a {
 	font-family: 'Caveat';
 	font-size: 1.5rem;
 	line-height: 1.5;
-	padding-bottom: 4rem;
+	/* padding-bottom: 4rem; */
 }
 
 /* 0UR PARTNERS section */
 .sponsors-img h2{
-	font-size: 4.3rem;
+	font-size: 4rem;
 	font-family: 'Caveat';
 	letter-spacing: .3rem;
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	/* color: white; */
+	text-shadow: 1px 2px #ffffff;
 }
-
-
-.flex-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+.box-section{
+	display: block;
+	position: absolute;
+	padding: 35px 25px;
+	margin-left: 25px;
+	padding: 50px ;
+	width: 50%;
+	color: rgb(252, 252, 252);
+	background-color: #8fc0a9;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.178);
   }
-  
-  .flex-container > div {
-	width: 170px;
-	margin: 20px;
-  }
-  .flex-container img{
-	  width: 120px;
-  }
-/* work team */
-.work-team img{
-	width: 100%;
-}
 
+  .Img-aside{
+	  width: 50%;
+	  padding: 5rem 2rem;
+	  /* float: right; */
+  }
+  .Img-aside img{
+	  padding-top: 30px;
+	  width: 600px;
+	  border-radius: 15px 80px 0 ;
+  }
 
 /* Footer */ 
  #footer{
