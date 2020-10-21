@@ -123,10 +123,12 @@ table {
    border: 3px solid black;
    border-radius: 50px;
    padding: 34px;
+   background-color: #c8d5b9;
 }
 section {
    background-color: #faf3dd;
    cursor: pointer;
+   padding-bottom: 56px;
 }
 
 
