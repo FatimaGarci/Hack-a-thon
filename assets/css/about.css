@@ -59,18 +59,27 @@ a {
 }
 /* This begins the CSS for the sections  */
 
-main > h1, p, .browser {
-	margin: 1px;
-	padding: 10px;
-}
+/* hero background image */
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	/* Set a specific height */
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+        }
+
+
 
 h2 {
+	color:#000000;
 	text-align: left;
-	position: relative;left:230px;top:5px;
+	position: relative;left:350px;top:5px;
 }
 
-img {	
-	width:200px;height:200px;
+img {	float:left;
+	width:300px;height:300px;
 	position: relative;right:50px;
 	border-style:solid;
 			
@@ -102,9 +111,10 @@ button:hover {
         
         
 #browser1 {
-	overflow: auto;
+	width:90%;
+	overflow: hidden;
 	margin: 50px;
-	font-size: 90%;
+	font-size:20px;
 	position:relative;left:50px;top:5px;
 	background-color:#fdfdfd;
 	border-style:solid;
@@ -112,8 +122,10 @@ button:hover {
 }
 
 #browser2 {
-	overflow: auto;
+	width:90%;
+	overflow: hidden;
         margin:50px;
+        font-size:20px;
         position:relative;right:50px;top:5px;
         border-style:solid;
          background-color:#fdfdfd;
@@ -121,16 +133,20 @@ button:hover {
         
 }
 #browser3 {
-	overflow: auto;
+	width:90%;
+	overflow: hidden;
         margin:50px;
+        font-size:20px;
         position:relative;left:50px;top:5px;
         border-style:solid;
         background-color:#fdfdfd;
 }
 
 #browser4 {
-	overflow: auto;
+	width:90%;
+	overflow: hidden;
 	margin:50px;
+	font-size:20px;
         position:relative;right:50px;top:5px;
         border-style:solid;
         background-color:#fdfdfd;
