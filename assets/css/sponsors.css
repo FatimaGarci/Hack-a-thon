@@ -101,6 +101,7 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	margin-top: 1rem;
   }
   
   .flex-container > div {
@@ -110,11 +111,25 @@ a {
   .flex-container img{
 	  width: 120px;
   }
-/* work team */
-.work-team img{
-	width: 100%;
+.sponsors-img{
+	margin-bottom: 7rem;
 }
 
+/* work team */
+.work-team-Img img{
+	width: 100%;
+	margin-top: 9rem;
+}
+.box-section{
+	display: block;
+	position: absolute;
+	padding: 35px 25px;
+	margin-left: 1rem;
+	padding: 50px ;
+	width: 50%;
+	color: rgb(252, 252, 252);
+	background-color: #8fc0a9ab;
+  }
 
 /* Footer */ 
  #footer{
