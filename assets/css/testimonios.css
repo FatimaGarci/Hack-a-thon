@@ -10,7 +10,6 @@ body {
 body, html {
 	height: 100%;
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
   }
 ul {
   margin: 0;
@@ -59,6 +58,78 @@ a {
 }
 
 
+/* Main Section*/
+
+.testimonies {
+	background-color: #c8d5b9;
+	padding: 45px 65px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 280px;
+	float: left;
+}
+ 
+h2 {
+text-align: center;
+font-size: 85px;
+font-weight: lighter;
+color: white;
+margin: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+   text-align: center;
+   font-size: 23px;
+   font-weight: lighter;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-transform: capitalize;
+   margin: 20px;
+}
+
+.testtext {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+text-align: center;
+}
+
+
+table {
+   table-layout: fixed ;
+   width: 100% ;
+   padding-top: 95px;
+   padding-bottom: 35px;
+   border-top: 12px solid #9aa989;
+   border-spacing: 1rem;
+   background-color: #faf3dd;
+ }
+ td {
+   width: 50% ;
+   padding: 45px 54px;
+ }
+
+ img {	
+   height: 60%;
+   width: 60%;
+   position: relative;
+   padding: 23px;
+		   
+}
+
+.volbox {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border: 3px solid black;
+   border-radius: 50px;
+   padding: 34px;
+}
+section {
+   background-color: #faf3dd;
+   cursor: pointer;
+}
+
+
 
  /* Footer */ 
  #footer{
@@ -85,3 +156,6 @@ a {
    .fa-facebook, .fa-twitter,.fa-youtube,.fa-instagram {
     color: #000000;
   }
+
+
+  
