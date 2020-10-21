@@ -6,6 +6,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
+	background-color: #c8d5b9;
 }
 body, html {
 	height: 100%;
@@ -88,7 +89,7 @@ img {	float:left;
 .main-browser {
 	text-align: center;
 	position: relative;
-	background-color:#68b0ab;
+	/* background-color:#68b0ab; */
 	padding:2px;
 	margin:0;
          

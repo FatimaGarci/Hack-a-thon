@@ -5,7 +5,8 @@
 }
 body {
 	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
+  line-height: 1.6;
+  background-color: #faf3dd;
 }
 body, html {
 	height: 100%;
@@ -76,7 +77,7 @@ a {
     }
     
     input, ::placeholder {
-    color: rgb(116, 135, 141);
+    color: rgb(34, 34, 34);
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     
@@ -93,7 +94,7 @@ a {
     }
     
     input:hover {
-    background: #68B0AB;
+    background: #c8d5b9;
     color: whitesmoke;
     }
     
@@ -111,7 +112,7 @@ a {
     }
     
     textarea:hover {
-    background: #68B0AB;;
+    background: #c8d5b9;
     color: white;
     }
     
@@ -127,7 +128,7 @@ a {
     }
     
     #submit:hover {
-    background: #68b0ab;
+    background: #c8d5b9;
     color: white;
     }
 
