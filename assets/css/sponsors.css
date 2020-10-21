@@ -6,7 +6,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
-	background-color: #c8d5b9c4;
+	/* background-color: #c8d5b9c4; */
 }
 body, html {
 	height: 100%;
@@ -67,11 +67,12 @@ a {
   }
   
   .flex-container > div {
-	width: 170px;
+	width: 230px;
 	margin: 20px;
   }
   .flex-container img{
-	  width: 120px;
+	  width: 220px;
+	  padding-right: 30px;
   }
 .sponsors-img{
 	margin-bottom: 7rem;
@@ -93,7 +94,7 @@ a {
 	margin-top: 4rem;
 	margin-bottom: 2rem;
 	width: 50%;
-	background-color: #8fc0a986;
+	background-color: #8fc0a9e8;
 	padding-right: 4em;
 	padding-left: 5em;
 	border-radius: 0 60px 0;
@@ -119,7 +120,7 @@ a {
 
 /* 0UR PARTNERS section */
 .sponsors-img h2{
-	font-size: 7rem;
+	font-size: 4rem;
 	font-family: 'Caveat';
 	letter-spacing: .3rem;
 	text-align: center;
@@ -136,7 +137,7 @@ a {
 	padding: 50px ;
 	width: 50%;
 	color: rgb(252, 252, 252);
-	background-color: #8fc0a9ab;
+	background-color: #8fc0a9;
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.178);
   }
 
